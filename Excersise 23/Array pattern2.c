@@ -56,7 +56,32 @@ int main()
  }
   
   printf("\n\n\n");
+  printf("\n\n\n");
+  printf("\n\n\n");
+  
+  
+  
+  for(i=0;i<100;i+=2)
+  {
+     printf("\n     %02d ",a[i]);
+  }
+  
    printf("\n\n\n");
-    printf("\n\n\n");
+  printf("\n\n\n");
+  printf("\n\n\n");
+ 
+  for(i=0;i<100;i++)
+  {
+  	if(i%10==0)
+	{
+	 printf("\n");
+	}
+  
+    printf(" %02d",a[i]);
+	
+
+  }
+  
+  
 }
 
