@@ -13,7 +13,7 @@ int main()
 	/* Check a[i] is equal to b[j] */
 	  if(a[i]==b[j])
 	  {
-   printf("\n %d matched jpos %d ipos %d",b[j],j,i); 
+  /* printf("\n %d matched jpos %d ipos %d",b[j],j,i); */
 	  found=1;
  
 	   
@@ -52,7 +52,7 @@ int main()
 	  {
         
 	 
-	    printf(" \n %d jpos %d",res[j],j);
+	    printf(" \n %d   ",res[j]);
 	 
 		}
   
